@@ -1,0 +1,29 @@
+# --- Archivos basura de Visual Studio ---
+.vs/
+*.user
+*.suo
+*.ipch
+*.aps
+*.opensdf
+*.sdf
+*.cache
+*.log
+
+# --- Carpetas de Compilación (Lo que se crea al dar Run) ---
+# No queremos subir los.exe ni los archivos temporales a la nube
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.lib
+
+# --- Archivos de sistema innecesarios ---
+.DS_Store
+Thumbs.db
